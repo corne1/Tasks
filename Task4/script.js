@@ -83,7 +83,6 @@ let appData = {
   }
 };
 
-console.log("Наша программа включает в себя данные: ");
 for(let item in appData){
-  console.log(item);
+  console.log("Наша программа включает в себя данные: " + item + ": " + appData[item]);
 }
